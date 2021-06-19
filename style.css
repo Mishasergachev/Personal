@@ -1,0 +1,103 @@
+/* Global Properties */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:#121212;
+  font-family: "Helvetica neue", cursive;
+}
+
+/* Main Heading Font */
+.m-heading {
+  font-family: "Roboto Slab", serif;
+}
+
+/* Navigation */
+.navigation-link {
+  border: 2px solid transparent;
+}
+
+.navigation-link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #f5ce59fb;
+  transition: 0.5s ease;
+}
+
+/* Main Container height*/
+.main-container {
+  height: 100vh;
+  margin-top: 3rem;
+  
+}
+
+/* Mobile Optimization */
+.main-container-mobile {
+  min-height: 60vh;
+}
+
+.content h1 {
+  font-size: 4rem;
+}
+
+/* Aligning items in main row */
+.main_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Changing Name Font size */
+.main_row h1 {
+  font-size: 5rem;
+}
+
+/* Making the main image the size of the screen */
+.main_row img {
+  width: auto;
+  height: 100vh;
+}
+
+/* About Section */
+.about {
+  background: #1F1B24;
+  border-radius: 0.5rem;
+}
+/* Projects Section*/
+.card {
+  border-bottom: 8px solid ;
+  background: #1F1B24;
+
+  
+  
+}
+
+
+/* Social Media Section */
+#social-media {
+  background: #1F1B24;
+}
+
+/* Add color to Social Media Links */
+.media_link {
+  padding: 1rem;
+  max-width: 15rem;
+  margin-left: 1rem;
+  border: 2px solid #f5ba09;
+  border-radius: 0.5rem;
+}
+
+/* This is to display the email */
+.showEmail {
+  margin-top: 1rem;
+  padding: 1rem 0.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  transition: 0.5s ease;
+  width: 75%;
+}
+/* About me buttons hover*/
+.gthb:hover {
+  background-color: #121212;
+}
